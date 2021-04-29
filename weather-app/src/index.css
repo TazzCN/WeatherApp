@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+:root {
+	--headingPrimary: 150px;
+	--headingPrimaryMobile: 50px;
+	--headingSecondary: 70px;
+}
+
+.App {
+	height: 100vh;
+	width: 100vw;
+}
+
+.App-Content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.MainText {
+	font-size: var(--headingPrimary);
+}
+
+@media only screen and (max-width: 500px) {
+	.MainText {
+		font-size: var(--headingPrimaryMobile);
+	}
+}
+
+.SecondaryText {
+	font-size: var(--headingSecondary);
+}
+
+.CentralDisplay {
+	display: flex;
+	flex-flow: column;
+}
+
+.CentralDisplay-SecondaryInformation {
+	display: flex;
+	justify-content: space-between;
+}
