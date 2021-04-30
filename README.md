@@ -8,7 +8,7 @@ This is a SPA which tells you whether or not you should wear a top depending on 
 
 ## Project Status
 
-This project is at the beginning of it's development. The basic requirements of the client have been met however this app has been built with the with future development in mind.
+This project is at the beginning of it's development. The basic requirements of the client have been met however this app has been built with future developments in mind.
 
 ## Installation
 
@@ -26,10 +26,10 @@ To install and run this application:
 
 ## Reflections
 
-This project took around 2.5 hours excluding commenting and writing the readme.
+This project took around 2.5 hours to make excluding commenting and writing the readme.
 
-If I had more time I would have spent more time on writing tests. I setup the sturucture of how I would like it to be.
+If I had more time I would written more tests. I made a start on setting up the sturucture of how I would like it to be.
 
 I also had more ideas for how to expand the app such as introducing real live weather data from an API.
 
-The Application was built with the use of an API in mind for the future or any sources for data.
+The Application was built with the idea of using an API or any sources of data in the future.
