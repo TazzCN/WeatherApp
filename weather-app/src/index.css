@@ -13,36 +13,52 @@ code {
 }
 
 :root {
-	--headingPrimary: 150px;
+	--headingPrimary: 120px;
 	--headingPrimaryMobile: 50px;
 	--headingSecondary: 70px;
+	--headingSecondaryMobile: 20px;
+	--primaryColor: #d3d3d3;
 }
 
+/* Frame components of App */
+
 .App {
+	display: flex;
+	flex-flow: column;
 	height: 100vh;
 	width: 100vw;
 }
 
-.Content {
+.Header {
 	width: 100%;
-	height: 100%;
+	height: 70px;
+	background-color: var(--primaryColor);
+}
+
+.Content {
+	min-height: 0;
+	flex-grow: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+/* Text Components */
 .MainText {
 	font-size: var(--headingPrimary);
+}
+
+.SecondaryText {
+	font-size: var(--headingSecondary);
 }
 
 @media only screen and (max-width: 500px) {
 	.MainText {
 		font-size: var(--headingPrimaryMobile);
 	}
-}
-
-.SecondaryText {
-	font-size: var(--headingSecondary);
+	.SecondaryText {
+		font-size: var(--headingSecondaryMobile);
+	}
 }
 
 .CentralDisplay {

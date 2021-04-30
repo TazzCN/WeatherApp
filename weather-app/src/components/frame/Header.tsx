@@ -1,18 +1,18 @@
 import React from 'react'
 
-interface ContentProps {
+interface HeaderProps {
   /**
   * React Children within Frame
   */
   children: React.ReactNode
 }
 
-const Content:React.FC<ContentProps> = ({ children }) => {
+const Header: React.FC<HeaderProps> = ({children}) => {
   return (
-    <div className="Content">
+    <div className="Header">
       {children}
     </div>
   )
 }
 
-export default Content
+export default Header
