@@ -4,7 +4,7 @@
 
 This is a SPA which tells you whether or not you should wear a top depending on the temperature. This is based on the location that you select. This is a great app to make sure that you're never cold again.
 
-![Picutre Of Application](/images/image1.png)
+![Picutre Of Application](images/image1.PNG)
 
 ## Project Status
 
