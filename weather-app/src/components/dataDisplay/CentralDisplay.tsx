@@ -1,6 +1,6 @@
 import React from 'react'
-import MainText from '../MainText'
-import SecondaryText from '../SecondaryText'
+import MainText from './MainText'
+import SecondaryText from './SecondaryText'
 
 interface CentralDisplayProps {
   topText: string
