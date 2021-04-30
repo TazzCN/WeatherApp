@@ -23,3 +23,13 @@ To install and run this application:
 1. Do an npm install `npm install`
 1. Run server with `npm start`
 1. The app should be running locally now on `localhost:3000`
+
+## Reflections
+
+This project took around 2.5 hours excluding commenting and writing the readme.
+
+If I had more time I would have spent more time on writing tests. I setup the sturucture of how I would like it to be.
+
+I also had more ideas for how to expand the app such as introducing real live weather data from an API.
+
+The Application was built with the use of an API in mind for the future or any sources for data.
