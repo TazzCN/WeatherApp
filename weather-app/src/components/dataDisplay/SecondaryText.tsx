@@ -2,12 +2,12 @@ import React from 'react'
 
 interface SecondaryTextProps {
   /**
-  * Text to be shown 
+  * Text to be shown
   */
   text: string
 }
 
-const SecondaryText: React.FC<SecondaryTextProps> = ({text}) => {
+const SecondaryText: React.FC<SecondaryTextProps> = ({ text }) => {
   return (
     <h2 className='SecondaryText'>
       {text}

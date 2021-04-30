@@ -3,8 +3,17 @@ import MainText from './MainText'
 import SecondaryText from './SecondaryText'
 
 interface CentralDisplayProps {
+  /**
+  * Top Text to be shown - If a top should be worn
+  */
   topText: string
+  /**
+  * Location text to be shown
+  */
   location: string
+  /**
+  * Temperature text to be shown
+  */
   temperature: string
 }
 

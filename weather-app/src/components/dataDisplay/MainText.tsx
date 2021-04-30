@@ -7,12 +7,12 @@ interface MainTextProps {
   text: string
 }
 
-const MainText: React.FC<MainTextProps> = ({text}) => {
+const MainText: React.FC<MainTextProps> = ({ text }) => {
   return (
     <div className="MainText">
-      {text} 
+      {text}
     </div>
-  ) 
+  )
 }
 
 export default MainText
