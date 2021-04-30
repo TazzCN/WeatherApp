@@ -28,7 +28,7 @@ To install and run this application:
 
 This project took around 2.5 hours to make excluding commenting and writing the readme.
 
-If I had more time I would written more tests. I made a start on setting up the sturucture of how I would like it to be.
+If I had more time I would have written more tests. I made a start on setting up the structure of how I would like it to be.
 
 I also had more ideas for how to expand the app such as introducing real live weather data from an API.
 
